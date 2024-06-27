@@ -21,7 +21,7 @@ Sumi can also work in pipeline mode. By default it will read from stdin and writ
 
     cat IERC20_meta.json | jq '.output.abi ' | sumi -m erc20 -e 0x0F | rustfmt > erc20.rs
 
-# Command line reference
+# Command line reference.
 
     Usage: sumi [OPTIONS]
 
